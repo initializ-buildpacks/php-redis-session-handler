@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
+	phpredishandler "github.com/initializ-buildpacks/php-redis-session-handler"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
 	"github.com/paketo-buildpacks/packit/v2/servicebindings"
-	phpredishandler "github.com/paketo-buildpacks/php-redis-session-handler"
 )
 
 func main() {

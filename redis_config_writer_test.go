@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	phpredishandler "github.com/initializ-buildpacks/php-redis-session-handler"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
-	phpredishandler "github.com/paketo-buildpacks/php-redis-session-handler"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"

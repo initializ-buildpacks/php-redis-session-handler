@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	phpredishandler "github.com/paketo-buildpacks/php-redis-session-handler"
+	phpredishandler "github.com/initializ-buildpacks/php-redis-session-handler"
 
 	. "github.com/onsi/gomega"
 	"github.com/sclevine/spec"

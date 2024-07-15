@@ -3,7 +3,7 @@ package fakes
 import (
 	"sync"
 
-	phpredishandler "github.com/paketo-buildpacks/php-redis-session-handler"
+	phpredishandler "github.com/initializ-buildpacks/php-redis-session-handler"
 )
 
 type ConfigWriter struct {

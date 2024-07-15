@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"testing"
 
+	phpredishandler "github.com/initializ-buildpacks/php-redis-session-handler"
+	"github.com/initializ-buildpacks/php-redis-session-handler/fakes"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
 	"github.com/paketo-buildpacks/packit/v2/servicebindings"
-	phpredishandler "github.com/paketo-buildpacks/php-redis-session-handler"
-	"github.com/paketo-buildpacks/php-redis-session-handler/fakes"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"
