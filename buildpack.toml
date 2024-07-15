@@ -5,7 +5,7 @@ api = "0.7"
   homepage = "https://github.com/initializ-buildpacks/php-redis-session-handler"
   id = "initializ-buildpacks/php-redis-session-handler"
   keywords = ["php", "redis"]
-  name = "Paketo Buildpack for PHP Redis Session Handler"
+  name = "initializ Buildpack for PHP Redis Session Handler"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
